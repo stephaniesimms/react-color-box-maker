@@ -14,7 +14,7 @@ class Box extends Component {
 
   handleRemove() {
     //call up the BoxList to remove box when user clicks button
-    console.log("handleRemove this.props", this.props)
+    // console.log("handleRemove this.props", this.props)
     this.props.remove(this.props.id);
   }
 

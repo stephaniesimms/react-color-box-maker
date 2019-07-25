@@ -28,14 +28,14 @@ class BoxList extends Component {
   // });
 
   remove(id) {
-    console.log("remove this=", this);
+    // console.log("remove this=", this);
     this.setState({
       boxes: this.state.boxes.filter(box => box.id !== id)
     }, () => console.log("remove state changed: ", this.state));
   }
 
   render() {
-    console.log("this.state.boxes to render", this.state.boxes)
+    // console.log("this.state.boxes to render", this.state.boxes)
     
     // fancy style to destructure obj
     const boxes = this.state.boxes.map(

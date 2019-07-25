@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<Box>
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "height": "undefinedem",
+          "width": "undefinedem",
+        }
+      }
+    />
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+</Box>
+`;
